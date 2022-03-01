@@ -9,6 +9,7 @@ function convertBinary(num){
   // parseint(num,2)
   let len = num.length;
   var sum = 0;
+  //a cada iteração o fator é multiplicado por 2 e depois multiplicado pelo item em ordem decrescente
   for (var i  = 0 , fac = 1 ; i < len; ++i , fac *= 2){   
     sum += fac * num[len - 1 - i]
   }
@@ -31,8 +32,8 @@ function inputHandler(e){
   }
 
   timeoutId = setTimeout(async () => {
-   let val = convertBinary(e.target.value)
-   output.innerText = val
+   let decimalNumber = convertBinary(e.target.value)
+   output.innerText = `Decimal: ${decimalNumber}`
   },500)
 }
 

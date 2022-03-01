@@ -64,9 +64,13 @@ button{
     rgba(255, 255, 255, 0.7),
     rgba(255, 255, 255, 0.2)
   );
-  border-radius: 32px;
+  border-radius: 16px;
   padding: 16px;
   text-align: center;
+}
+
+#output{
+  margin-top: 32px;
 }
 
 
