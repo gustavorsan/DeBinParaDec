@@ -1,6 +1,7 @@
 /*Cores*/
 :root{
   --cinza-escuro: #212121;
+  --vermelho: #800000
 }
 
 /*Reset de css*/
@@ -70,7 +71,14 @@ button{
 }
 
 #output{
-  margin-top: 32px;
+  margin-top: 10px;
 }
+
+
+#message{
+  margin-top: 10px;
+  color: var(--vermelho);
+}
+
 
 

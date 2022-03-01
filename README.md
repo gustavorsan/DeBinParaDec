@@ -1,2 +1,2 @@
 # DeBinParaDec
-Uma aplicação com o intuito de converter binário em deccimal e estudar o conceido de debounce a ideia veio de [Link](/https://github.com/florinpop17/app-ideas)
+Uma aplicação com o intuito de converter binário em deccmal e estudar o conceito de debounce a ideia veio de [Link](https://github.com/florinpop17/app-ideas)
